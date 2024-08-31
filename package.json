@@ -1,0 +1,20 @@
+{
+  "name": "api-crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devAugustoW/api-crud.git",
+  "author": "Augusto Dantas <augustodantas.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "sucrase": "^3.35.0"
+  }
+}
